@@ -12,7 +12,7 @@ module.exports = {
       user : 'root',
       host : ['45.93.136.98'],
       ref  : 'origin/main',
-      repo : 'git@github.com:alesikivan/client-bookmark-red.git',
+      repo : 'https://github.com/alesikivan/client-bookmark-red',
       path : '/root/apps/bookmark-client',
       'pre-deploy-local': '',
       'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production',
